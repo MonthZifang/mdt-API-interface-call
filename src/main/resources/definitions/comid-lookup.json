@@ -1,0 +1,11 @@
+{
+  "name": "comid-lookup",
+  "enabled": true,
+  "method": "GET",
+  "url": "https://example.com/api/comid/{comid}",
+  "responseMappings": {
+    "uuid": "data.uuid",
+    "name": "data.name"
+  },
+  "description": "根据 com id 反查外部资料。"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "bind-query",
+  "enabled": true,
+  "method": "GET",
+  "url": "https://example.com/api/bind?uuid={uuid}",
+  "responseMappings": {
+    "bound": "data.bound",
+    "comid": "data.comid"
+  },
+  "description": "查询第三方平台绑定状态。"
+}

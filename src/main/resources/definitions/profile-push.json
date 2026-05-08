@@ -1,0 +1,12 @@
+{
+  "name": "profile-push",
+  "enabled": true,
+  "method": "POST",
+  "url": "https://example.com/api/profile/update",
+  "bodyTemplate": {
+    "uuid": "{uuid}",
+    "comid": "{comid}",
+    "level": "{level}"
+  },
+  "description": "向第三方平台推送玩家资料。"
+}

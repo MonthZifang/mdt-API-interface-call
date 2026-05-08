@@ -1,0 +1,22 @@
+{
+  "metadataVersion": 1,
+  "name": "mdt-api-interface-call",
+  "displayName": "MDT API Interface Call",
+  "displayNameZh": "MDT API接口调用",
+  "author": "monthzifang",
+  "description": "Uses definition files to invoke external APIs and expose reusable response mappings to commands and plugins.",
+  "descriptionZh": "复用原有 API mod 的调用思路，通过定义文件管理外部接口，供服务器命令、第三方平台或其他插件按模块名直接发起请求。",
+  "version": "v1",
+  "requiredMarketVersion": "v1",
+  "channel": "native",
+  "targets": [
+    "original"
+  ],
+  "downloadUrls": [
+    "https://raw.githubusercontent.com/MonthZifang/mdt-API-interface-call/main/dist/mdt-api-interface-call.jar",
+    "https://raw.githubusercontent.com/MonthZifang/mdt-API-interface-call/main/plugin.json"
+  ],
+  "dependencies": [],
+  "repositoryUrl": "https://github.com/MonthZifang/mdt-API-interface-call",
+  "entry": "com.mdt.apicall.ApiInterfaceCallPlugin"
+}
